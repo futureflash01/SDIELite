@@ -9,6 +9,8 @@ SDIE Lite is a batch file that downloads and extracts [SDIE](https://github.com/
 
 This makes SDIE Lite only 8KB instead of 8MB.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # CREDITS AND LINKS
 
 •Based on libimobiledevice: https://bit.ly/2IHQDmo
