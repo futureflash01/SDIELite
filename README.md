@@ -7,7 +7,7 @@
 
 SDIE Lite is a batch file that downloads and extracts [SDIE](https://github.com/laithayoub71/SDIE) temporarily and deletes all files after command execution. 
 
-This makes SDIE Lite only 12KB instead of 8MB.
+This makes SDIE Lite only 12KB instead of 12MB.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
