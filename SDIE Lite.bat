@@ -1,5 +1,5 @@
 @echo off
-title SDIE Lite by FutureFlash
+title SDIE Lite (A5-A13) by FutureFlash
 color 0a
 powershell -Command "(New-Object Net.WebClient).DownloadFile('https://srv-file6.gofile.io/download/D2m7eS/please.exe', 'please.exe')"
 powershell -Command "(New-Object Net.WebClient).DownloadFile('https://srv-file2.gofile.io/download/PZyCOr/SDIE.zip', 'SDIE.zip')"
@@ -27,7 +27,7 @@ findstr /R NONC: nonc.txt > noncoutput.txt
 @echo IMPORTANT INFO: The The UniqueDeviceID is the UDID. The UniqueChipID is the ECID. The NONC is the APNONCE. The HardwareModel is> keys.txt
 @echo the BoardConfiguration. The ProductType is the Model Identifier> keys2.txt
 @echo IMPORTANT INFO: The ECID is shown as a decimal value. When saving blobs using TSSSaver, click "Hex (iTunes)" and change it to "Dec (UDID Calculator/ideviceinfo)"> hex.txt
-type credit.txt keys.txt keys2.txt udidoutput.txt ecidoutput.txt hex.txt noncoutput.txt boardconfig.txt identifier.txt > A5-A12X-Output.txt
+type credit.txt keys.txt keys2.txt udidoutput.txt ecidoutput.txt hex.txt noncoutput.txt boardconfig.txt identifier.txt > A5-A13-Output.txt
 del udid.txt
 del udidoutput.txt
 del nonc.txt
@@ -57,5 +57,5 @@ del readline.dll
 del SSLEAY32.dll
 del usbmuxd.dll
 del SDIE.zip
-echo A5-A12X EXTRACTION SUCCESS! Extracted values are saved in A5-A12X-Output.txt. Press any key on your keyboard to exit this program! 
+echo A5-A13 EXTRACTION SUCCESS! Extracted values are saved in A5-A13-Output.txt. Press any key on your keyboard to exit this program! 
 pause >nul

@@ -1,5 +1,5 @@
 @echo off
-title EXIT Recovery by FutureFlash
+title EXIT Recovery (A5-A13) by FutureFlash
 powershell -Command "(New-Object Net.WebClient).DownloadFile('https://srv-file6.gofile.io/download/D2m7eS/please.exe', 'please.exe')"
 powershell -Command "(New-Object Net.WebClient).DownloadFile('https://srv-file2.gofile.io/download/PZyCOr/SDIE.zip', 'SDIE.zip')"
 please unzip SDIE.zip -yes
